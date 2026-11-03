@@ -2,26 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | SSB Poultry</title>
+    <title>SSB Poultry | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo-container">
-            <img src="images/logo.png" alt="SSB Poultry Logo">
-        </div>
+        <div class="logo"><h2>SSB Poultry</h2></div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Contact & Branch Locations</h1>
+        <h1>Contact Us</h1>
+        <div class="product-grid">
+            <div>
+                <form id="contactForm" action="mailto:info@ssbpoultry.co.za" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="cName">Your Name *</label>
+                        <input type="text" id="cName" name="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cEmail">Your Email *</label>
+                        <input type="email" id="cEmail" name="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cMessage">Message *</label>
+                        <textarea id="cMessage" name="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Direct Email</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2>Farm Details</h2>
+                <h1>Contact & Branch Locations</h1>
         <section class="branches">
             <article class="branch-card">
                 <h2>Main Store — Schoonoord</h2>
@@ -34,24 +55,11 @@
                 <p><strong>Address:</strong> Jane Furse, Limpopo</p>
                 <p><strong>Phone:</strong> 012 579 3667</p>
                 <p><strong>Trading Hours:</strong> Mon - Fri: 08:00 - 16:30 | Sat: 08:00 - 12:30</p>
+                <p><strong>Email:</strong> info@ssbpoultry26@gmail.com</p>
             </article>
         </section>
-        <section class="direct-contact">
-            <h2>Send Us a Message</h2>
-            <form action="#" method="post">
-                <label for="cName">Your Name:</label>
-                <input type="text" id="cName" name="cName" required>
-                <label for="cEmail">Your Email:</label>
-                <input type="email" id="cEmail" name="cEmail" required>
-                <label for="cMessage">Message:</label>
-                <textarea id="cMessage" name="cMessage" rows="4" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2026 SSB Poultry. All rights reserved.</p>
-    </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
