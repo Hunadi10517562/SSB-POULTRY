@@ -2,56 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | SSB Poultry</title>
+    <title>SSB Poultry | Products</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo-container">
-            <img src="images/logo.png" alt="SSB Poultry Logo">
-        </div>
+        <div class="logo"><h2>SSB Poultry</h2></div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Contact & Branch Locations</h1>
-        <section class="branches">
-            <article class="branch-card">
-                <h2>Main Store — Schoonoord</h2>
-                <p><strong>Address:</strong> Schoonoord, Sekhukhune, Limpopo</p>
-                <p><strong>Phone:</strong> 013 657 3943</p>
-                <p><strong>Trading Hours:</strong> Mon - Fri: 08:00 - 17:00 | Sat: 08:00 - 14:00</p>
-            </article>
-            <article class="branch-card">
-                <h2>Branch Store — Jane Furse</h2>
-                <p><strong>Address:</strong> Jane Furse, Limpopo</p>
-                <p><strong>Phone:</strong> 012 579 3667</p>
-                <p><strong>Trading Hours:</strong> Mon - Fri: 08:00 - 16:30 | Sat: 08:00 - 12:30</p>
-            </article>
-        </section>
-        <section class="direct-contact">
-            <h2>Send Us a Message</h2>
-            <form action="#" method="post">
-                <label for="cName">Your Name:</label>
-                <input type="text" id="cName" name="cName" required>
-                <label for="cEmail">Your Email:</label>
-                <input type="email" id="cEmail" name="cEmail" required>
-                <label for="cMessage">Message:</label>
-                <textarea id="cMessage" name="cMessage" rows="4" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+        <h1>Our Product Catalogue</h1>
+        <div class="product-grid">
+            <div class="card">
+                <img src="images/day old chicks.png" alt="Day-Old Broiler Chicks">
+                <h3>Day-Old Broiler Chicks</h3>
+                <p>Category: Chicks</p>
+                <p><strong>R 18.50 each</strong></p>
+                <a href="enquiry.html" class="btn">Request Quote</a>    
+            </div class="card">
+                <img src="images/point of lay.png " alt="Point of Lay Hens">
+                <h3>Point of Lay Hens</h3>
+                <p>Category: Hens</p>
+                <p><strong>R 120.00 each</strong></p>
+                <a href="enquiry.html" class="btn">Request Quote</a>
+            </div>
+            <div class="card">
+                <img src="images/fresh whole chicken.png" alt="Fresh Whole Broiler Chicken">
+                <h3>Fresh Whole Broiler Chicken (2.2kg+)</h3>
+                <p>Category: Poultry</p>
+                <p><strong>R 85.00 each</strong></p>
+                <a href="enquiry.html" class="btn">Request Quote</a>
+            </div>
+            <div class="card">
+                <img src="images/farm fresh eggs.png" alt="Farm Fresh Eggs">
+                <h3>Fresh Eggs (Tray of 30)</h3>
+                <p>Category: Produce</p>
+                <p><strong>R 75.00 per tray</strong></p>
+                <a href="enquiry.html" class="btn">Request Quote</a>
+            </div>
+            <div class="card">
+                <img src="images/equipment.png" alt="Poultry Feed and Equipment">
+                <h3>Broiler Cage</h3>
+                <p>Category: Equipment</p>
+                <p><strong>R 2500.00 per size</strong></p>
+                <a href="enquiry.html" class="btn">Request Quote</a>
+            </div>
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2026 SSB Poultry. All rights reserved.</p>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
