@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | SSB Poultry</title>
+    <title>SSB Poultry | Home</title>
+    <meta name="description" content="SSB Poultry delivers fresh broiler chickens, farm eggs, and quality feed.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo-container">
-            <img src="images/logo.png" alt="SSB Poultry Logo">
-        </div>
+        <div class="logo"><h2>SSB Poultry</h2></div>
+        <img src="images/logo.png" alt="SSB Poultry Logo" class="logo-image">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="enquiry.html">Enquiry</a></li>
@@ -20,20 +21,35 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="hero">
-            <h1>Welcome to SSB Poultry</h1>
-            <p>Your trusted local provider of fresh, healthy, and affordable poultry products in the region[cite: 3].</p>
-            <p><a href="products.html">View Product Catalogue</a></p>
+            <h1>Fresh, Quality Poultry Direct from the Farm</h1>
+            <p>Providing premium broiler chickens, farm-fresh eggs, and top-grade feed across South Africa.</p>
+            <a href="products.html" class="btn">Explore Products</a>
         </section>
-        <section class="features">
-            <h2>Why Choose Our Produce?</h2>
-            <p>We raise and sell fresh eggs, broiler chickens, and day-old chicks directly to local families, spaza shops, and wholesalers with full transparency and trusted quality.</p>
+
+        <section>
+            <h2>Why Choose SSB Poultry?</h2>
+            <div class="product-grid">
+                <div class="card">
+                    <h3>Healthy Broilers</h3>
+                    <p>Raised under optimal hygienic conditions for consistent high yield and weight.</p>
+                </div>
+                <div class="card">
+                    <h3>Farm Fresh Eggs</h3>
+                    <p>Graded and collected daily to ensure maximum freshness for retail and wholesale.</p>
+                </div>
+                <div class="card">
+                    <h3>Nutritional Feed</h3>
+                    <p>Scientifically formulated starter, grower, and finisher poultry feeds.</p>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2026 SSB Poultry. All rights reserved.</p>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
