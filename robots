@@ -1,0 +1,6 @@
+# robots.txt for SSB Poultry
+User-agent: *
+Allow: /
+
+# Direct crawlers to your XML Sitemap
+Sitemap: https://www.ssbpoultry.co.za/sitemap.xml
